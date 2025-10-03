@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+  <meta charset='UTF-8'>
+  <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+  <title>Menu - Brew & Beans</title>
+  <meta name='description' content='Explore our coffee menu including classics, seasonal specials, and pastries.'>
+  <link href='https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Inter:wght@400;600;700&display=swap' rel='stylesheet'>
+  <script src='https://cdn.tailwindcss.com'></script>
+</head>
+<body class='font-[Inter] antialiased'>
+  <header>
+    <nav class='bg-white shadow sticky top-0 z-50'>
+      <div class='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8'>
+        <div class='flex justify-between items-center h-16'>
+          <a href='index.html' class='text-2xl font-bold text-gray-800'>Brew & Beans</a>
+          <div class='hidden md:flex space-x-4'>
+            <a href='index.html' class='text-gray-600 hover:text-amber-700 transition'>Home</a>
+            <a href='about.html' class='text-gray-600 hover:text-amber-700 transition'>About</a>
+            <a href='menu.html' class='text-gray-600 hover:text-amber-700 transition'>Menu</a>
+            <a href='contact.html' class='text-gray-600 hover:text-amber-700 transition'>Contact</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class='relative min-h-screen'>
+      <img src='https://pixabay.com/get/g3593000f5da769a579d95a66c059a2d56e1b06ea407b730d405a06b2a0ceba1bfe87e7363d46e241e0019546d334fe1c26f1c487cdb0746dd53c646a84dd1ac3_640.jpg' alt='Bakery counter with pastries' class='absolute inset-0 w-full h-full object-cover'>
+      <div class='absolute inset-0 bg-black opacity-60'></div>
+      <div class='relative z-10 flex items-center justify-center h-full'>
+        <div class='text-center text-white px-6 py-12'>
+          <h1 class='font-[Montserrat] text-4xl md:text-6xl font-bold mb-4'>Our Menu</h1>
+          <p class='text-lg md:text-2xl mb-6 max-w-2xl mx-auto'>A curated selection of coffees, pastries, and seasonal specials crafted with care.</p>
+          <a href='index.html' class='bg-yellow-400 text-gray-900 px-6 py-3 rounded-full font-semibold hover:bg-yellow-300 transition'>Back to Home</a>
+        </div>
+      </div>
+    </section>
+
+    <section class='py-16'>
+      <div class='max-w-7xl mx-auto px-4'>
+        <h2 class='font-[Montserrat] text-3xl md:text-4xl font-bold text-gray-800 mb-6'>Coffee</h2>
+        <div class='grid grid-cols-1 md:grid-cols-3 gap-8'>
+          <div class='bg-white rounded-lg shadow p-4'>
+            <img src='https://images.unsplash.com/photo-1606310553997-7a01e22900ae?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3ODkyNDZ8MHwxfHNlYXJjaHwxMHx8ZXNwcmVzc28lMjBzaG90fGVufDB8MHx8fDE3NTk1MTgyMzZ8MA&ixlib=rb-4.1.0&q=80&w=1080' alt='Espresso shot' class='w-full h-40 object-cover rounded mb-2'>
+            <h3 class='font-[Montserrat] text-lg font-semibold'>Espresso</h3>
+            <p class='text-gray-600 text-sm'>Rich and concentrated coffee shot.</p>
+          </div>
+          <div class='bg-white rounded-lg shadow p-4'>
+            <img src='https://images.pexels.com/photos/5554668/pexels-photo-5554668.jpeg?auto=compress&cs=tinysrgb&h=650&w=940' alt='Flat White' class='w-full h-40 object-cover rounded mb-2'>
+            <h3 class='font-[Montserrat] text-lg font-semibold'>Flat White</h3>
+            <p class='text-gray-600 text-sm'>Velvety milk, bold espresso.</p>
+          </div>
+          <div class='bg-white rounded-lg shadow p-4'>
+            <img src='https://pixabay.com/get/g36dd1a8cb11a5ffc4c18305322c1eecda51819ace3026be7b179cd301c488000e9044dbaa590e9e35961ed0cf0ad2f47dd2830556d1dfb0ffbc08a6384cf75f1_640.jpg' alt='Cappuccino' class='w-full h-40 object-cover rounded mb-2'>
+            <h3 class='font-[Montserrat] text-lg font-semibold'>Cappuccino</h3>
+            <p class='text-gray-600 text-sm'>Foamy goodness with a cinnamon kiss.</p>
+          </div>
+        </div>
+        <hr class='my-8 border-gray-200'>
+        <h2 class='font-[Montserrat] text-3xl md:text-4xl font-bold text-gray-800 mb-6'>Pastries</h2>
+        <div class='grid grid-cols-1 md:grid-cols-3 gap-8'>
+          <div class='bg-white rounded-lg shadow p-4'>
+            <img src='https://images.unsplash.com/photo-1712262583546-8caaeb0e4761?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3ODkyNDZ8MHwxfHNlYXJjaHw2fHxjcm9pc3NhbnQlMjBvbiUyMHBsYXRlfGVufDB8MHx8fDE3NTk0MjcxOTR8MA&ixlib=rb-4.1.0&q=80&w=1080' alt='Butter croissant' class='w-full h-40 object-cover rounded mb-2'>
+            <h3 class='font-[Montserrat] text-lg font-semibold'>Butter Croissant</h3>
+            <p class='text-gray-600 text-sm'>Flaky, buttery layers with a delicate crust.</p>
+          </div>
+          <div class='bg-white rounded-lg shadow p-4'>
+            <img src='https://images.unsplash.com/photo-1613119719948-d53865658a88?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3ODkyNDZ8MHwxfHNlYXJjaHw0fHxibHVlYmVycnklMjBtdWZmaW58ZW58MHwwfHx8MTc1OTQ5MTAwNHww&ixlib=rb-4.1.0&q=80&w=1080' alt='Blueberry muffin' class='w-full h-40 object-cover rounded mb-2'>
+            <h3 class='font-[Montserrat] text-lg font-semibold'>Blueberry Muffin</h3>
+            <p class='text-gray-600 text-sm'>Bright blueberries, soft crumb, gentle sweetness.</p>
+          </div>
+          <div class='bg-white rounded-lg shadow p-4'>
+            <img src='https://images.unsplash.com/photo-1736520537688-1f1f06b71605?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3ODkyNDZ8MHwxfHNlYXJjaHwxMHx8YWxtb25kJTIwY3JvaXNzYW50fGVufDB8MHx8fDE3NTk1MDg0MDh8MA&ixlib=rb-4.1.0&q=80&w=1080' alt='Almond croissant' class='w-full h-40 object-cover rounded mb-2'>
+            <h3 class='font-[Montserrat] text-lg font-semibold'>Almond Croissant</h3>
+            <p class='text-gray-600 text-sm'>Toasted almond filling with a crisp exterior.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class='bg-gray-900 text-white'>
+    <div class='max-w-7xl mx-auto px-4 py-12'>
+      <div class='grid grid-cols-1 md:grid-cols-3 gap-8'>
+        <div>
+          <h4 class='text-xl font-semibold mb-2'>Brew & Beans</h4>
+          <p class='text-gray-300'>Quality coffee, community, and a welcoming space you’ll want to visit again.</p>
+        </div>
+        <div>
+          <h4 class='text-xl font-semibold mb-2'>Hours</h4>
+          <p class='text-gray-300'>Mon–Thu 7am–8pm<br>Fri–Sun 7am–9pm</p>
+        </div>
+        <div>
+          <h4 class='text-xl font-semibold mb-2'>Menu</h4>
+          <p class='text-gray-300'>Espresso, Lattes, Pastries, Seasonal Treats</p>
+        </div>
+      </div>
+      <hr class='border-gray-700 my-6'>
+      <p class='text-center text-gray-400 text-sm'>© 2025 Brew & Beans. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
