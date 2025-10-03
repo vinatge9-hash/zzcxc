@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+  <meta charset='UTF-8'>
+  <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+  <title>Brew & Beans - Coffee Shop</title>
+  <meta name='description' content='Brew & Beans offers freshly roasted coffee, pastries, and a cozy space to work or unwind.'>
+  <!-- Fonts (category: Coffee Shop - Montserrat for headings, Inter for body) -->
+  <link href='https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Inter:wght@400;600;700&display=swap' rel='stylesheet'>
+  <!-- Tailwind (CDN) -->
+  <script src='https://cdn.tailwindcss.com'></script>
+</head>
+<body class='font-[Inter] antialiased'>
+  <!-- Navigation -->
+  <header>
+    <nav class='bg-white shadow sticky top-0 z-50'>
+      <div class='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8'>
+        <div class='flex justify-between items-center h-16'>
+          <a href='index.html' class='text-2xl font-bold text-gray-800'>Brew & Beans</a>
+          <div class='hidden md:flex space-x-4'>
+            <a href='index.html' class='text-gray-600 hover:text-amber-700 transition'>Home</a>
+            <a href='about.html' class='text-gray-600 hover:text-amber-700 transition'>About</a>
+            <a href='menu.html' class='text-gray-600 hover:text-amber-700 transition'>Menu</a>
+            <a href='contact.html' class='text-gray-600 hover:text-amber-700 transition'>Contact</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Hero Section with background image (placeholder) -->
+    <section class='relative min-h-screen'>
+      <img src='https://images.pexels.com/photos/4473507/pexels-photo-4473507.jpeg?auto=compress&cs=tinysrgb&h=650&w=940' alt='Cozy coffee shop interior' class='absolute inset-0 w-full h-full object-cover'>
+      <div class='absolute inset-0 bg-black opacity-60'></div>
+      <div class='relative z-10 flex items-center justify-center h-full'>
+        <div class='text-center text-white px-6 py-12'>
+          <h1 class='font-[Montserrat] text-4xl md:text-6xl font-bold mb-4'>Brew & Beans</h1>
+          <p class='text-lg md:text-2xl mb-6 max-w-2xl mx-auto'>Freshly roasted coffee, handcrafted pastries, and a cozy space to relax, work, or catch up with friends.</p>
+          <div class='flex flex-col sm:flex-row gap-4 justify-center'>
+            <a href='menu.html' class='bg-yellow-400 text-gray-900 px-6 py-3 rounded-full font-semibold hover:bg-yellow-300 transition-all duration-300'>View Menu</a>
+            <a href='contact.html' class='bg-white text-gray-900 px-6 py-3 rounded-full font-semibold hover:bg-gray-100 transition-all duration-300'>Find Us</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Signature Beverages -->
+    <section class='py-16 bg-gray-50'>
+      <div class='max-w-7xl mx-auto px-4'>
+        <h2 class='font-[Montserrat] text-3xl md:text-4xl font-bold text-gray-800 mb-8'>signature Beverages</h2>
+        <div class='grid grid-cols-1 md:grid-cols-3 gap-8'>
+          <article class='bg-white rounded-lg shadow p-6 flex flex-col items-center'>
+            <img src='https://pixabay.com/get/g688d02f3d038f64faf8961e674611666b10e7b9201f2cc0dc323a7a8c296c61500cf39e23c950ac63174cf4401ef2fbdd2cd1dff997ede53f4767b58c61bb7ef_640.jpg' alt='Latte with art' class='w-48 h-32 object-cover rounded'>
+            <h3 class='font-[Montserrat] text-xl mt-4'>Café Mocha</h3>
+            <p class='text-gray-600 text-center mt-2'>Espresso, cocoa, and velvety milk finished with a delicate latte art.</p>
+          </article>
+          <article class='bg-white rounded-lg shadow p-6 flex flex-col items-center'>
+            <img src='https://images.pexels.com/photos/1797106/pexels-photo-1797106.jpeg?auto=compress&cs=tinysrgb&h=650&w=940' alt='Cappuccino with cinnamon' class='w-48 h-32 object-cover rounded'>
+            <h3 class='font-[Montserrat] text-xl mt-4'>Caramel Nut Frappe</h3>
+            <p class='text-gray-600 text-center mt-2'>Chilled espresso blended with caramel, nuts, and cream.</p>
+          </article>
+          <article class='bg-white rounded-lg shadow p-6 flex flex-col items-center'>
+            <img src='https://images.unsplash.com/photo-1628373790257-472c54c2618f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3ODkyNDZ8MHwxfHNlYXJjaHwxMHx8c2Vhc29uYWwlMjBpY2VkJTIwY29mZmVlfGVufDB8MHx8fDE3NTk1MTgyMzV8MA&ixlib=rb-4.1.0&q=80&w=1080' alt='Seasonal iced coffee' class='w-48 h-32 object-cover rounded'>
+            <h3 class='font-[Montserrat] text-xl mt-4'>Seasonal Cold Brew</h3>
+            <p class='text-gray-600 text-center mt-2'>Bright, refreshing, and infused with seasonal flavors.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Visit / Hours -->
+    <section class='py-12'>
+      <div class='max-w-7xl mx-auto px-4'>
+        <div class='grid grid-cols-1 md:grid-cols-2 gap-8 items-center'>
+          <div class='bg-white rounded-lg p-6 shadow'>
+            <h3 class='font-[Montserrat] text-2xl font-bold mb-2'>Visit Brew & Beans</h3>
+            <p class='text-gray-700'>A warm, welcoming space with free Wi-Fi, comfortable seating, and plenty of outlets.</p>
+            <ul class='mt-4 text-sm text-gray-700'>
+              <li>Address: 123 Coffee Lane, Bean City</li>
+              <li>Parking: Street parking available</li>
+              <li>Now open daily 7:00 AM – 8:00 PM</li>
+            </ul>
+          </div>
+          <div class='bg-white rounded-lg p-6 shadow'>
+            <h3 class='font-[Montserrat] text-2xl font-bold mb-2'>Our Hours</h3>
+            <ul class='text-gray-700'>
+              <li>Mon–Thu: 7:00 AM – 8:00 PM</li>
+              <li>Fri–Sat: 7:00 AM – 9:00 PM</li>
+              <li>Sun: 8:00 AM – 6:00 PM</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class='bg-gray-900 text-white'>
+    <div class='max-w-7xl mx-auto px-4 py-12'>
+      <div class='grid grid-cols-1 md:grid-cols-4 gap-8'>
+        <div>
+          <h4 class='text-xl font-semibold mb-2'>Brew & Beans</h4>
+          <p class='text-gray-300'>A cozy neighborhood coffee shop serving exceptional drinks and pastries.</p>
+        </div>
+        <div>
+          <h5 class='font-semibold mb-2'>Visit</h5>
+          <p class='text-gray-300'>123 Coffee Lane<br>Bean City, BC</p>
+        </div>
+        <div>
+          <h5 class='font-semibold mb-2'>Hours</h5>
+          <p class='text-gray-300'>Mon–Thu 7:00–20:00<br>Fri–Sun 7:00–21:00</p>
+        </div>
+        <div>
+          <h5 class='font-semibold mb-2'>Links</h5>
+          <ul class='space-y-1 text-gray-300'>
+            <li><a href='menu.html' class='hover:text-white'>Menu</a></li>
+            <li><a href='about.html' class='hover:text-white'>About</a></li>
+            <li><a href='contact.html' class='hover:text-white'>Contact</a></li>
+          </ul>
+        </div>
+      </div>
+      <hr class='border-gray-700 my-6'>
+      <p class='text-center text-gray-400 text-sm'>© 2025 Brew & Beans. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
