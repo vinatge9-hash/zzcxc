@@ -1,0 +1,9 @@
+{
+  "version": 2,
+  "builds": [
+    { "src": "public/index.html", "use": "@vercel/static" },
+    { "src": "public/about.html", "use": "@vercel/static" },
+    { "src": "public/menu.html", "use": "@vercel/static" },
+    { "src": "public/contact.html", "use": "@vercel/static" }
+  ]
+}
